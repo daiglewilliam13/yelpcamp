@@ -19,8 +19,7 @@ var commentRoutes 		= require("./routes/comments"),
 
 var dbPW = process.env.DB_PW;
 var path = require('path');
-var dbURL = "mongodb+srv://daigle:"+ process.env.DB_PW + "@daigle-yelpapp.phic1.mongodb.net/daigleCamp?retryWrites=true&w=majority";
-
+var dbURL = "mongodb+srv://william:" + process.env.DB_PW + "@cluster0.f9ndx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 
 mongoose.set('useNewUrlParser', true);
 mongoose.set('useFindAndModify', false);
